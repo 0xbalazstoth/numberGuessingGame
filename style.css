@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-weight: 200;
+    font-family: Oxanium;
+    font-size: 16px;
+}
+
+body, html{
+    height: 100%;
+    background: #83a4d4;
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+    background: linear-gradient(to right, #b6fbff, #83a4d4);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.doboz{
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#inpNum{
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    text-decoration: none;
+    border-style: none;
+    outline: none;
+    text-align: center;
+    box-shadow: 0 0 20px white;
+}
+
+#imgCurrent{
+    width: 100px;
+    height: 100px;
+}
+
+#inpNum::-webkit-input-placeholder  {
+    transition: opacity 0.3s linear; color: gray;
+}
+#inpNum:focus::-webkit-input-placeholder  {
+    opacity: 0;
+}
+
+#btn-tipp{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    background: rgb(52,50,214);
+    background: linear-gradient(0deg, rgba(52,50,214,1) 0%, rgba(45,253,212,1) 100%);
+    box-shadow: 0 0 20px #83a4d4;
+    color: white;
+    height: 50px;
+}
+
+#btn-restart{
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    background: rgb(52,50,214);
+    background: linear-gradient(0deg, rgba(52,50,214,1) 0%, rgba(45,253,212,1) 100%);
+    box-shadow: 0 0 20px #83a4d4;
+    color: white;
+    height: 50px;
+    opacity: 0;
+}
